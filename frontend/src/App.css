@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-ul {
+  padding: 5px;
+  margin-top: -300px;
+}
+
+/*All nav-ul styling in Nav.js */
+/* <li> <ul> Styling */
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* <ul> Styling */
+.nav-ul a {
+  color: darkslategray;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* <li> Styling */
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: indianred;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-logo {
+  width: 95px;
+  float:left;
+  border-radius: 50%;
+  margin-top: -21px;
+  margin-left: -1px;
+}
+
+.nav-screenlogo {
+  width: 500px;
+  margin-left: -100px;
+  margin-top: -22px;
+}
+
+/* Footer.js styling */
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: indianred;
+  color: darkslategray;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* All signup Styling in SignUp.js */
+.signup-inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid rgb(82, 8, 8);
+  text-align: center;
+}
+
+.signup-register {
+  margin-left: 30;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 27%;
+}
+
+.signup-button {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: indianred;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+/* Login.js Styling */
+.login-register {
+  margin-left: 30;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 35%;
+}
+
+.validation {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: -20px;
+}
+
+/* ProductList.js Styling */
+.product-list {
+  margin-left: 30;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40%;
+}
+/* ProductList.js <ul> and <li> Styling */
+.product-list ul li {
+display: block;
+border: 1px solid indianred;
+padding: 10px;
+list-style: none;
+width: 110px; 
+}
+
+.product-list ul {
+  margin: 0;
+  margin-left: 0;
+  display: flex;
+}
+
+.product-list-search {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid indianred;
+  padding-left: 20px;
+}
+
+.product-list-format {
+  /* color:rgb(57, 60, 109); */
+  font-weight:800;
+  font-family:serif;
+}
+
+.span {
+  color: red;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
